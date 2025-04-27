@@ -557,7 +557,7 @@ body{
 
 
 
- @media screen and(min-width:320px ) and (max-width: 480px) {
+ /* @media screen and(min-width:320px ) and (max-width: 480px) {
     
     .logo img{
         height: 30px;
@@ -571,9 +571,9 @@ body{
         font-size: 10px;
     }
 
-
+*/
     /* hero section */
-    .hero-section{
+    /* .hero-section{
         flex-direction: column;
     }
- }
+ }  */
