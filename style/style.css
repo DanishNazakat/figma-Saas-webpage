@@ -167,6 +167,10 @@ body{
     margin: auto;
     height: 800px;
 }
+.plan-text{
+   width: 700px;
+   margin: auto;
+}
 .plan-text h2{
     font-size: 50px;
 }
@@ -557,23 +561,182 @@ body{
 
 
 
- /* @media screen and(min-width:320px ) and (max-width: 480px) {
-    
+  @media (min-width:320px ) and (max-width: 780px) {
+   .navbar{
+      width:auto;
+      height: 100px;
+   }
+   .logo{
+      margin-bottom: 50px;
+      margin-left: 10px;
+   }
     .logo img{
-        height: 30px;
+        width: 30px;
+    }
+    .logo h2{
+      font-size: 16px;
+    }
+    .headerlink{
+      flex-direction: column;
+      width: 150px;
+     
+    }
+   
+    .headerbtn{
+      width: 150px;
+      display: flex;
+      align-items: center;
+      
+      margin-top: -50px;
     }
     .loginbtn{
-       height: 30px;
-       width: 50px; 
+       height: 25px;
+       width: 40px; 
        font-size: 10px;
+       margin-left: -5px;
+    }
+    .whitepacebtn{
+      font-size:8px;
+      height: 25px;
+      width: 100px;
     }
     .headerlink ul li{
         font-size: 10px;
+        margin-left: 0px;
     }
 
-*/
+
     /* hero section */
-    /* .hero-section{
+    .hero-section{
         flex-direction: column;
+        height: 650px;
+   
     }
- }  */
+    .hero-text{
+      width: 70%;
+      text-align: center;
+      margin-top: 40px;
+      margin-bottom: 30px;
+    }
+    .hero-text h2{
+      font-size: 25px;
+    }
+    .hero-text button{
+      width: 130px;
+      height: 40px;
+      font-size: 10px;
+    }
+    .hero-img{
+      margin-bottom: 200px;
+    }
+    .hero-img img{
+      width: 300px;
+      height: 300px;
+    }
+
+
+    /* plan section */
+
+    .plan-section{
+      height: 2050px;
+    }
+    .plan-text{
+      width: auto;
+    }
+    .plan-text h2{
+      font-size: 30px;
+    }
+    .plan-cards{
+      flex-direction: column;
+    }
+    .plan-card{
+      margin-bottom: 50px;
+      width: 300px;
+    }
+    .plan-li-heading{
+      font-size: 25px;
+      margin-bottom: -20px;
+    }
+    .plan-li-price{
+      font-size: 25px;
+      margin-top: 0%;
+    }
+    .plan-li-text{
+      font-size: 16px;
+    }
+
+
+
+    /* work secion */
+    .work-section{
+      background-image: none;
+      height: 650px;
+    } 
+    .work-section-div{
+      text-align: left;
+      width: 60%;
+      margin-left: 20px;
+    }
+    .work-section-div h2{
+      font-size: 25px;
+    }
+    .work-section-div button{
+      height: 40px;
+      font-size: 10px;
+    }
+
+
+
+    /* sponsors section */
+    .sponsors-section{
+      height: auto;
+
+  
+    }
+    .sponsors-section h2{
+      font-size: 40px;
+      font-weight: bold;
+   }
+   .sponsors-img{
+      width: auto;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      
+   }
+   .sponsers-imgs1 img{
+      width: 10px;
+   }
+   .sponsors-img2 img{
+      width: 100px;
+   }
+   .sponsers-imgs{
+      margin-bottom: 50px;
+   }
+   .sponsers-imgs1{
+      margin-bottom: 50px;
+      margin-top: 30px;
+   }
+   
+
+   /* Client section */
+
+   .client-section{
+      height: auto;
+      width: auto;
+      background-color: aquamarine;
+   }
+   .client-section h2{
+      font-size: 40px;
+   }
+
+   .client-comments{
+      flex-direction: column;
+      width: auto;
+      height: auto;
+   }
+   .client-comment{
+      margin-bottom: 50px
+   }
+
+ }  
