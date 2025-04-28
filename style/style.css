@@ -562,6 +562,10 @@ body{
 
 
   @media (min-width:320px ) and (max-width: 780px) {
+   .main{
+      width: auto;
+      background-color: rgb(255, 0, 0);
+   }
    .navbar{
       width:auto;
       height: 100px;
@@ -724,7 +728,6 @@ body{
    .client-section{
       height: auto;
       width: auto;
-      background-color: aquamarine;
    }
    .client-section h2{
       font-size: 40px;
@@ -739,4 +742,39 @@ body{
       margin-bottom: 50px
    }
 
- }  
+
+   /* FOOTER SECTION */
+
+   .footer{
+      height: auto;
+     
+   }
+   .footerupper{
+      text-align: center;
+      width: auto;
+    
+   }
+   .footerupper h2{
+      font-size: 30px;
+   }
+   .footer-lists{
+
+      flex-direction: column;
+   }
+   .footer-end{
+      width: auto;
+      flex-direction: column;
+   }
+   .end-footer-text{
+      font-size: 14px;
+      line-height: 30px;
+      text-align: center;
+   }
+   .end-footer-icons{
+      text-align: center;
+      margin-right: 70px;
+   }
+ } 
+ .extar{
+   height: 300px;
+ } 
